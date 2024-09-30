@@ -23,7 +23,7 @@ body {
   }
   
   .s_headings {
-      text-align: left; /* Changed to left align for better readability */
+      text-align: center; /* Changed to left align for better readability */
       font-size: 25px;
       font-weight: bold;
       color: #4CAF50; /* Green color */
@@ -31,7 +31,7 @@ body {
   }
 
   .ss_headings {
-      text-align: left; /* Changed to left align for better readability */
+      text-align: center; /* Changed to left align for better readability */
       font-size: 22px;
       font-weight: bold;
       color: #4CAF50; /* Green color */
