@@ -308,4 +308,41 @@ body {
       font-weight: bold;
       cursor: pointer;
   }
+
+.nav-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.nav-menu.visible {
+  display: block; /* Display when visible */
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu ul li {
+  margin-bottom: 10px;
+}
+
+.nav-btn button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-btn button:hover {
+  background-color: #45a049;
+}
+
   
